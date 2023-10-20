@@ -89,6 +89,7 @@ body{
 }
 
 
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -193,4 +194,21 @@ body{
     margin: auto;
     width: 53.5%;
     padding: 10px;
+}
+
+.input-padrao{
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+    background-color: #1e1e1e;
+    border-radius: 9px;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+
+.input-text{
+    color: aliceblue;
 }
