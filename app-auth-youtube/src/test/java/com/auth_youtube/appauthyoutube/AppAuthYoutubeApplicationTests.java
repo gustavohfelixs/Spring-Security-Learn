@@ -1,10 +1,10 @@
-package com.gfelix.demo;
+package com.auth_youtube.appauthyoutube;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class AppAuthYoutubeApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.gfelix.demo;
+package com.auth_youtube;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class AppAuthYoutubeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(AppAuthYoutubeApplication.class, args);
 	}
 
 }

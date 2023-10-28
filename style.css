@@ -197,18 +197,59 @@ body{
 }
 
 .input-padrao{
-    text-align: center;
-    display: inline-block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 85%;
+    margin: 0 auto;
     background-color: #1e1e1e;
     border-radius: 9px;
-    position: absolute;
     height: 400px;
     width: 400px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 .input-text{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 20%;
+    box-sizing: border-box;
     color: aliceblue;
+
+}
+.alinhamento{
+    display: block;
+    align-items: center; x
+    justify-content: center;
+}
+input[type=email] {
+    border: 2px aliceblue ;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    border: 2px aliceblue ;
+    border-radius: 10px;
+}
+input[type=email]:focus {
+    transition: 200ms;
+    background-color: rgb(179, 179, 179);
+}
+input[type=password]:focus {
+    transition: 200ms;
+    background-color: rgb(179, 179, 179);
+}
+
+input[type=submit] {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    transition: 1s;
+
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+
 }
