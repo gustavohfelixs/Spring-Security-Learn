@@ -1,10 +1,10 @@
-package com.gfelix.springsection2;
+package com.gfelix.springsection3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EazyBankBackendApplicationTests {
+class Springsection3ApplicationTests {
 
 	@Test
 	void contextLoads() {
