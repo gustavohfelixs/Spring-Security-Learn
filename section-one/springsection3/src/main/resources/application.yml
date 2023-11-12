@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://springsecurity.cihmr5iojzzw.us-east-2.rds.amazonaws.com/eazybank
+        username: admin
+        password: SpringSecurityDB
+    jpa:
+        show-sql: true
+        properties:
+            hibernate:  
+                format_sql: true
